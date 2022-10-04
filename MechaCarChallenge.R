@@ -4,7 +4,7 @@
 library(dplyr)
 
 # Read csv as df
-MCmpg <- read.csv(file = 'MechaCar_mpg.csv', check.names = F, stringsAsFactors = F)
+MCmpg <- read.csv(file = 'Resources/sourceData/MechaCar_mpg.csv', check.names = F, stringsAsFactors = F)
 head(MCmpg)
 
 # Linear Regression
@@ -16,7 +16,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 ## Deliverable 2 ##
 
 # Read csv
-Coil <- read.csv(file = 'Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
+Coil <- read.csv(file = 'Resources/sourceData/Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
 
 # Summary Stats
 tot_summ <- Coil %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')

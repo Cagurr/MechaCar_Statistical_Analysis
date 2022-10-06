@@ -51,7 +51,7 @@ In total, the variance of the suspension coils is well under 100 pounds per squa
 
 *  Summary of t-Test:  
     
-Using t-tests, we attempted to quantify the variability between all manufacturing lots and each lot individually when compared against the population mean of 1,500 psi.  We concluded that there is no statistical variance between Lots 1 & 2 and the population mean of 1,500 psi.  However, Lot 3 had a very low p-value leading us to reason that there is a statistical variance between Lot 3 and the population mean of 1,500 psi. 
+Using t-tests, we attempted to quantify the variability between all manufacturing lots and each lot individually when compared against the population mean of 1,500 psi.  We concluded that there is no statistical variance between Lots 1 and the population mean of 1,500 psi.  However, Lots 2 & 3 had low p-values leading us to reason that there is a statistical variance between those lots and the population mean of 1,500 psi. 
 
 ## Deliverable #4:  Study Design:  MechaCar vs. Competition
 

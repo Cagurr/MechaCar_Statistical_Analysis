@@ -25,13 +25,13 @@ lot_summ <- Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI),
 ## Deliverable 3 ##
 
 # t-test - all
-t.test(Coil$PSI, mu = mean(Coil$PSI))
+t.test(Coil$PSI, mu = 1500)
 
 # t-test - L1
-t.test(subset(Coil$PSI, Coil$Manufacturing_Lot == 'Lot1'), mu = mean(Coil$PSI))
+t.test(subset(Coil$PSI, Coil$Manufacturing_Lot == 'Lot1'), mu = 1500)
 
 # t-test - L2
-t.test(subset(Coil$PSI, Coil$Manufacturing_Lot == 'Lot2'), mu = mean(Coil$PSI))
+t.test(subset(Coil$PSI, Coil$Manufacturing_Lot == 'Lot2'), mu = 1500)
 
 # t-test - L3
-t.test(subset(Coil$PSI, Coil$Manufacturing_Lot == 'Lot3'), mu = mean(Coil$PSI))
+t.test(subset(Coil$PSI, Coil$Manufacturing_Lot == 'Lot3'), mu = 1500)
